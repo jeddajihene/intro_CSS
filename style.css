@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Open+Sans:ital,wght@0,300;1,300&family=Raleway:wght@100&family=Roboto:wght@100&display=swap");
+/* initialisation */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Header CSS */
+
+/* *************************************************** */
+/* Main Part CSS */
+/* Introduction Part CSS */
+#introduction_part {
+  /* postions */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* box model */
+  /* No! */
+  /* width: 80%;  */
+  margin: 2% 10%;
+}
+#introduction_part h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  font-family: "Comforter", cursive;
+  margin: 2%;
+}
+#introduction_part_paragraph {
+  display: flex;
+}
+#introduction_part_paragraph p {
+  color: gray;
+  line-height: 1.75;
+  font-weight: 400;
+  padding: 2%;
+}
+/* *********************************************** */
+/* Countries Part CSS */
+#countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* box model */
+  margin: 2% 10%;
+}
+.country {
+  margin: 2%;
+  border-radius: 10px;
+}
+.country img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.country:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  cursor: pointer;
+}
+
+.country div {
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+}
